@@ -1,5 +1,5 @@
 {% set name = "amundsen-rds" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amundsen-rds-{{ version }}.tar.gz
-  sha256: e66778fdd3700e7bfa829c24a762ce25a7284dbbca7c62bf14db1fde2d5a11ad
+  sha256: a1a40cf584c73bbde2c7714c56de7721a530e31987e30ddc55ec277e671eefd2
 
 build:
   noarch: python
